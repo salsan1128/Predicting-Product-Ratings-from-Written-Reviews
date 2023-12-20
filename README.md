@@ -30,25 +30,20 @@ too small. Figure 5 with the neutral reviews was pretty similar to the bad revie
 Word Cloud is a useful data visualization for our project since amazon review data are categorical data.
 Word Cloud gives a good insight to look up positive and negative words of our data in a short time.
 
-
-
-Figure 1. Word Cloud of All Reviews
-
-
+Figure 1. Distribution of Review Sentiment
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/6dd768e1-b52b-472c-b477-3a64fc90ed71)
 
 Figure 2. Word Cloud of All Reviews
-
-
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/cfd669c6-4de5-4e59-88db-5208cb9fbd7c)
 
 Figure 3. Word Cloud of Good Reviews
-
-
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/1ba5d67f-00a9-4e1a-8128-0c0d7c3f819a)
 
 Figure 4. Word Cloud of Bad Reviews
-
-
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/80a78ae0-6196-40f6-9c69-b710145502db)
 
 Figure 5. Word Cloud of Netural Reviews
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/99acad85-9fb6-410e-a51d-c6ca1b98c3c9)
 
 We also wanted to see what products had the most feedback and what products were the most highly
 rated. However, some products did not have the product names. Figure 6 shows the top 10 most reviewed
@@ -56,18 +51,16 @@ products. The most reviewed products tend to be items that are worn frequently s
 underwear. Since these items are used by everybody, they most likely have more users who buy them
 which means more users that leave reviews.
 
-
-
-Figure 6.
+Figure 6. Top 10 Most Reviewed Products
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/802bb6d9-9221-412f-aa1e-3e9cce051f83)
 
 Figure 7 shows the top 10 highest rated products. We calculated this by taking the items with the highest
 percentage of good reviews to overall reviews. If there was a tie in terms of the percentage of good
 reviews, we sorted it by the products with more good reviews. The highest rated products were very
 varied, so we couldn’t draw any conclusions from it.
 
-
-
-Figure 7.
+Figure 7. Top 10 Highest Rated Products
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/824d022e-8564-46db-ab0f-121281ae6b8e)
 
 # Data Preprocessing
 Since we were dealing with text mining, natural language processing, and running k-nn, a lot of the work
@@ -111,17 +104,17 @@ best one. After that, we ran our model on the test dataset. We found that the be
 
 # Results
 
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/3d69089d-e49b-4fb9-be71-380fa0e16aa2)
 
+Sample size = 500,000 &emsp; &emsp; &emsp; &emsp; &emsp;
+Test Size = 100,000 &emsp; &emsp; &emsp; &emsp; &emsp;
+Highest Accuracy = 79.4% 
 
-Sample size = 500,000
-Test Size = 100,000
-Highest Accuracy = 79.4%
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/81fefe4e-c5e5-4b73-807d-d5881c2a64e6)
 
-
-
-Sample size = 750,000
-Test size = 150,000
-Highest Accuracy = 79.6%
+Sample size = 750,000 &emsp; &emsp; &emsp; &emsp; &emsp;
+Test size = 150,000 &emsp; &emsp; &emsp; &emsp; &emsp;
+Highest Accuracy = 79.6% 
 
 While the accuracy of our model was relatively accurate, we found that the model wasn’t as good
 predicting bad and neutral reviews. We concluded that this was due to the fact that the dataset skewed
@@ -135,3 +128,5 @@ reviews without biases, or figuring out some techniques to balance the number of
 
 # Contributions
 All of us met up and worked on the project together for all parts of the project.
+
+Claire Choo, Salvador Sanchez, Gregory Shar, Benjamin Shu
