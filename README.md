@@ -7,14 +7,13 @@ about their products. Understanding the keywords associated with certain sentime
 in understanding the parts of their product that are doing well or need improvement. Classifying written
 reviews are also important in helping companies understand their overall brand reputation.
 
-
-
 # Dataset
 The dataset we used for our project was created by Julian McAuley from UCSD. We specifically looked
 at reviews for clothing and accessories spanning from May 1996 - July 2014. Below is a sample review
 from the dataset.
 
-
+![image](https://github.com/salsan1128/Predicting-Product-Ratings-from-Written-Reviews/assets/25236558/64a3d707-7833-437b-9ee1-990a7711b8f2)
+[Amazon review data (ucsd.edu)](https://jmcauley.ucsd.edu/data/amazon/ "UCSD - Amazon Review Data")
 
 # Exploratory Data Analysis
 The first analysis we did was finding out the distribution of the ratings for the dataset. Figure 1 shows
